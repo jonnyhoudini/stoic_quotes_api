@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Quote from '../components/Quote';
 import Button from '../components/Button';
+import Portrait from '../components/Portrait';
 
 const Container = () => {
 
@@ -22,10 +23,12 @@ const Container = () => {
 
     return (
         <>
+
+            <Portrait quote={quote} />
             <div className="quote-box">
                 <Quote quote={quote} />
                 <Button handleClick={handleClick} />
-                <img src="/images/aurelius.png" alt="Marcus Aurelius" />
+
             </div>
         </>
     )
