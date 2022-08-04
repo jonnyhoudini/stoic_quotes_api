@@ -3,7 +3,7 @@ import Quote from '../components/Quote';
 import Button from '../components/Button';
 import Portrait from '../components/Portrait';
 
-const Container = () => {
+const Container = ({ element }) => {
 
     const [quote, setQuote] = useState([])
 
@@ -27,7 +27,7 @@ const Container = () => {
             <Portrait quote={quote} />
             <div className="quote-box">
                 <Quote quote={quote} />
-                <Button handleClick={handleClick} />
+                <Button handleClick={handleClick} element={element} />
 
             </div>
         </>
