@@ -6,7 +6,7 @@ import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
 
-  const element = <FontAwesomeIcon icon={faCircleChevronRight} />
+  const element = <FontAwesomeIcon icon={faCircleChevronRight} size="2xl" />
   return (
     <>
       <Container element={element} />
