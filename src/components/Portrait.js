@@ -6,9 +6,9 @@ const Portrait = ({ quote }) => {
 
     const image = (author) => {
         if (author === "Marcus Aurelius") {
-            return "/images/Aurelius.png";
+            return "./images/Aurelius.png";
         }
-        return "/images/" + author + ".png"
+        return "./images/" + author + ".png"
     }
 
     const authorImg = image(author);
