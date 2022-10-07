@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stoic_quotes_api/static/css/main.3aff3b7f.css",
+    "main.css": "/stoic_quotes_api/static/css/main.7744f826.css",
     "main.js": "/stoic_quotes_api/static/js/main.2c7c855c.js",
     "static/js/787.5dfecdcb.chunk.js": "/stoic_quotes_api/static/js/787.5dfecdcb.chunk.js",
     "index.html": "/stoic_quotes_api/index.html",
-    "main.3aff3b7f.css.map": "/stoic_quotes_api/static/css/main.3aff3b7f.css.map",
+    "main.7744f826.css.map": "/stoic_quotes_api/static/css/main.7744f826.css.map",
     "main.2c7c855c.js.map": "/stoic_quotes_api/static/js/main.2c7c855c.js.map",
     "787.5dfecdcb.chunk.js.map": "/stoic_quotes_api/static/js/787.5dfecdcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aff3b7f.css",
+    "static/css/main.7744f826.css",
     "static/js/main.2c7c855c.js"
   ]
 }
