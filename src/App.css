@@ -55,3 +55,14 @@ a:hover {
 .next:hover {
   color: #A06CD5;
 }
+
+@media only screen and (max-width: 600px) {
+  .quote-box {
+    width: 80%;
+    float: none;
+  }
+
+  img {
+    display: none;
+  }
+}
